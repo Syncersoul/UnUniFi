@@ -14,11 +14,13 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.profile
 source .profile
 ```
 
-# Clone project repository
+**Clone project repository**
+```
 cd && rm -rf chain
 git clone https://github.com/UnUniFi/chain
 cd chain
 git checkout v4.0.2
+```
 
 # Build binary
 make install
