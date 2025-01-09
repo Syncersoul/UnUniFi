@@ -33,8 +33,10 @@ mkdir -p $HOME/.ununifi/cosmovisor/genesis/bin
 ln -s $HOME/.ununifi/cosmovisor/genesis $HOME/.ununifi/cosmovisor/current -f
 ```
 
-# Copy binary to cosmovisor directory
+**Copy binary to cosmovisor directory**
+```
 cp $(which ununifid) $HOME/.ununifi/cosmovisor/genesis/bin
+```
 
 # Set node CLI configuration
 ununifid config chain-id ununifi-beta-v1
