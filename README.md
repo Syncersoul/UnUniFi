@@ -74,8 +74,10 @@ sed -i \
   $HOME/.ununifi/config/app.toml
 ```
 
-# Enable prometheus
+**Enable prometheus**
+```
 sed -i -e 's|^prometheus *=.*|prometheus = true|' $HOME/.ununifi/config/config.toml
+```
 
 # Change ports
 sed -i -e "s%:1317%:23217%; s%:8080%:23280%; s%:9090%:23290%; s%:9091%:23291%; s%:8545%:23245%; s%:8546%:23246%; s%:6065%:23265%" $HOME/.ununifi/config/app.toml
