@@ -51,8 +51,8 @@ ununifid init "Your Node Name" --chain-id ununifi-beta-v1
 ```
 **Download genesis and addrbook files**
 ```
-curl -L https://snapshots.nodejumper.io/ununifi/genesis.json > $HOME/.ununifi/config/genesis.json
-curl -L https://snapshots.nodejumper.io/ununifi/addrbook.json > $HOME/.ununifi/config/addrbook.json
+curl -L https://raw.githubusercontent.com/Syncersoul/UnUniFi/refs/heads/main/genesis.json > $HOME/.ununifi/config/genesis.json
+curl -L https://raw.githubusercontent.com/Syncersoul/UnUniFi/refs/heads/main/addrbook.json > $HOME/.ununifi/config/addrbook.json
 ```
 
 **Set seeds**
